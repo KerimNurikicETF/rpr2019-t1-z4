@@ -38,8 +38,12 @@ public class Supermarket {
         this.artikli = artikli;
     }
 
-    public void dodajArtikl(Artikl artikl) {
-        artikli[brojArtikala] = new Artikl(artikl.getNaziv(), artikl.getKod(), artikl.getCijena());
-        brojArtikala = brojArtikala + 1;
+    public boolean dodajArtikl(Artikl artikl) {
+        if(brojArtikala<999) {
+            artikli[brojArtikala] = new Artikl(artikl.getNaziv(), artikl.getKod(), artikl.getCijena());
+            brojArtikala = brojArtikala + 1;
+            return true;
+        }
+        return false;
     }
 }
