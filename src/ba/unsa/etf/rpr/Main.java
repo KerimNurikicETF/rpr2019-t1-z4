@@ -8,26 +8,26 @@ public class Main {
     private static Supermarket supermarket = new Supermarket();
 
     private static void unosArtikalaUMarket(){
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "1"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "2"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "3"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "4"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "5"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "6"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "7"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "8"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "9"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "10"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "11"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "12"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "13"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "14"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "15"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "16"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "17"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "18"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "19"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "20"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 1, "1"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 2, "2"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 3, "3"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 4, "4"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 5, "6"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 6, "5"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 7, "7"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 8, "8"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 9, "9"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 10, "10"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 11, "11"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 12, "12"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 13, "13"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 14, "14"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 15, "15"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 16, "16"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 17, "17"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 18, "18"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 19, "19"));
+        supermarket.dodajArtikl(new Artikl("Biciklo", 20, "20"));
     }
 
     public static void ispisArtikala(Artikl[] artikli){
