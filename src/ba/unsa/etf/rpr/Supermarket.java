@@ -16,18 +16,16 @@ public class Supermarket {
     }
 
     public Artikl izbaciArtiklSaKodom(String kod) {
-        int indeks = -1;
+        Artikl a = null;
         for (int i = 0; i < brojArtikala; i++)
             if (artikli[i].getKod() == Integer.parseInt(kod)) {
-                indeks = i;
+                a = new Artikl(artikli[i].getNaziv(), artikli[i].getKod(), artikli[i].getCijena());
                 for (int j = i; j < brojArtikala - 1; j++) {
                     artikli[j] = artikli[j + 1];
                 }
                 brojArtikala = brojArtikala - 1;
             }
-        if (indeks != -1)
-            return artikli[indeks];
-        else return null;
+        return a;
     }
 
     public Artikl[] getArtikli() {
